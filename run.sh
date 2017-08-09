@@ -30,7 +30,8 @@ ulimit -c unlimited
 start()
 {
      echo "start ......................................................."
-     sh /usr/local/tomcat/bin/catalina.sh jpda start
+     #sh /usr/local/tomcat/bin/catalina.sh jpda start
+     sh /usr/local/tomcat/bin/catalina.sh run
 }
 
 up()

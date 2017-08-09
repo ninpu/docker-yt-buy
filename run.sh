@@ -1,6 +1,6 @@
 #!/bin/bash
 #export JAVA_HOME=/alidata/server/java
-export JRE_HOME=$JAVA_HOME/jre
+export JRE_HOME=$JAVA_HOME
 echo "BASE_HOME=======$BASE_HOME"
 PROG_NAME=$0
 #TOMCAT_NAME=tomcat-daily-yt-buy
@@ -70,7 +70,7 @@ stop()
    #    echo "service stop success"
    #    }
    #fi
-   #echo "==================================stop ok!!!!!!!!!"
+   echo "==================================stop ok!!!!!!!!!"
 }
 
 deploy()

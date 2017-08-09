@@ -11,8 +11,8 @@ ADD run.sh /opt/script/deploy.sh
 
 VOLUME /opt/app/
 
-WORKDIR /opt/app
-
 EXPOSE 8080
+
+WORKDIR /opt/app
 
 CMD ["/opt/script/deploy.sh", "deploy"]

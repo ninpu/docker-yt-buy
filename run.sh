@@ -54,9 +54,9 @@ up()
 }     
 stop()
 {
-   #echo "start stop ===================================="
-   #sh /usr/local/tomcat/bin/catalina.sh stop -force
-   #sleep 3s
+   echo "start stop ===================================="
+   sh /usr/local/tomcat/bin/catalina.sh stop -force
+   sleep 5s
    #pidlist=`ps -ef|grep $TOMCAT_NAME | grep -v "grep"|awk '{print $2}'`
    ##ps -u $USER|grep "java"|grep -v "grep"
    #echo "tomcat Id list :$pidlist"

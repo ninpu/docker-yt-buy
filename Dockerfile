@@ -7,7 +7,7 @@ USER root
 RUN mkdir -p /opt/app && \
     mkdir -p /opt/script
 
-ADD deploy.sh /opt/script/deploy.sh
+ADD run.sh /opt/script/deploy.sh
 
 VOLUME /opt/app/
 

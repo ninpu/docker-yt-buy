@@ -5,9 +5,9 @@ MAINTAINER macroth@gmail.com
 USER root
 
 RUN mkdir -p /opt/app && \
-    mkdir -p /opt/script && \
+    mkdir -p /opt/script
 
-add deploy.sh /opt/script/deploy.sh
+ADD deploy.sh /opt/script/deploy.sh
 
 VOLUME /opt/app/
 
